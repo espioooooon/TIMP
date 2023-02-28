@@ -62,9 +62,9 @@ tree
 
 Запустим файл bootstrap.sh: sh bootstrap.sh
 
-Создадим файл куда установим bootstrap: mkdir fortimp
+Создадим файл куда установим bootstrap: mkdir output
 
-Установим bootstrap: ./b2 install prefix=fortimp
+Установим bootstrap: ./b2 install --prefix=output
 
 **9 Перенесите все скомпилированные на предыдущем шаге статические библиотеки в директорию ~/boost-libs.**
 
