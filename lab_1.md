@@ -8,3 +8,16 @@ wget https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.
 
 tar -xvf boost_1_69_0.tar.gz
 
+**3. Подсчитайте количество файлов в директории ~/boost_1_69_0 не включая вложенные директории.**
+
+tree -L 1
+
+<img width="413" alt="image" src="https://user-images.githubusercontent.com/126329578/221964277-4f9d6ffd-d145-4bc8-b5d9-ae126eb3d60a.png">
+
+**_6 директорий и 12 файлов_**
+
+**4. Подсчитайте количество файлов в директории ~/boost_1_69_0 включая вложенные директории.**
+
+tree
+
+**_5637 директорий и 61191 файлов_**
