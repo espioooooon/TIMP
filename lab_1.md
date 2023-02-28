@@ -42,4 +42,12 @@ tree
 
 **_37859_**
 
+**6. Найдите полный пусть до файла any.hpp внутри библиотеки boost.**
+
+Перешел в директорию boost: cd boost
+Затем с помощью команды readlink -f any.hpp получим: **_/mnt/c/Users/chean/boost_1_69_0/boost/any.hpp_**
+
+<img width="389" alt="image" src="https://user-images.githubusercontent.com/126329578/221967535-4384b062-ffd6-4424-be91-f3c3686717a6.png">
+
+
 
