@@ -40,7 +40,9 @@
 
 <img width="204" alt="image" src="https://user-images.githubusercontent.com/126329578/221895842-c1c76119-59c4-442b-8276-90f48472433a.png">
 
+**Файлы не содержащие .h .hpp .cpp**
 
+<img width="419" alt="image" src="https://user-images.githubusercontent.com/126329578/221899777-23e7bb8d-b202-4321-a259-b9fd648db095.png">
 
 6.
 **Полный путь до файла any.hpp внутри библиотеки boost**
