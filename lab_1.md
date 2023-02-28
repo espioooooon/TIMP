@@ -49,5 +49,18 @@ tree
 
 <img width="389" alt="image" src="https://user-images.githubusercontent.com/126329578/221967535-4384b062-ffd6-4424-be91-f3c3686717a6.png">
 
+**7 Выведите в консоль все файлы, где упоминается последовательность boost::asio.**
+
+С помощью команды grep получим: grep "boost:asio" | wc -l
+
+**8 Скомпилирутйе boost.**
+
+Установим g++ через: sudo apt install g++
+Дальше перейдем в нужную директорию: cd boost_1_69_0/tools/build
+Запустим файл bootstrap.sh: sh bootstrap.sh
+Создадим файл куда установим bootstrap: mkdir fortimp
+Установим bootstrap: ./b2 install prefix=fortimp
+
+**9 Перенесите все скомпилированные на предыдущем шаге статические библиотеки в директорию ~/boost-libs.**
 
 
