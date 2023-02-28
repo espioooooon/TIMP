@@ -54,6 +54,16 @@
 
 8.
 
+**1. sudo apt install g++** 
+
+**2. cd boost_1_69_0/tools/build** - перешел в нужную директорию 
+
+**3. sh bootstrap.sh** - запустил файл
+
+**4. Создал файл fortimp куда буду устанавливать bootstrap**
+
+**5. ./b2 install prefix=fortimp**
+
 9.
 
 10.
