@@ -43,6 +43,10 @@
 
 
 6.
+**Полный путь до файла any.hpp внутри библиотеки boost**
+
+<img width="269" alt="image" src="https://user-images.githubusercontent.com/126329578/221898299-157df90e-510d-43a1-9a00-13c59d991340.png">
+
 
 7.
 
