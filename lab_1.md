@@ -26,6 +26,20 @@ tree
 
 Для заголовочных файлов .h и .hpp, получим: find . -name "*.h" -o -name "*.hpp" | wc -l
 
+<img width="356" alt="image" src="https://user-images.githubusercontent.com/126329578/221966675-13ee9dea-8a42-4073-aef3-405006c351c1.png">
+
 **_15208_**
 
-Для файлов с расширением .cppб получим: find . -name "*.cpp" | wc -l
+Для файлов с расширением .cpp получим: find . -name "*.cpp" | wc -l
+
+<img width="361" alt="image" src="https://user-images.githubusercontent.com/126329578/221966635-e0650f81-0f7b-4793-a65e-8cda338ff206.png">
+
+**_13774_**
+
+Для остальных файлов получим: find . -not -name "*.h" -not -name "*.hpp" -not -name "*.cpp" | wc -l
+
+<img width="421" alt="image" src="https://user-images.githubusercontent.com/126329578/221967049-9db5c634-b428-48df-a111-067f8f514cf4.png">
+
+**_37859_**
+
+
